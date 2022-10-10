@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root {
+    --text-color: #4640BE
+}
+
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(70, 64, 190, 0.661),rgba(70, 64, 190, 0.661)),url('./img/paul-szewczyk-nI4aC1kaTRc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.header span{
+    color: #fff;
+    font-size:20px ;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.button-top {
+    font-weight: 900;
+    color: #4640BE;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 4px 5px 4px;
+    cursor: pointer;
+    transition: border-color .5s, background-color .5s, color .5s;
+}
+
+.button-top:hover {
+    background-color:rgb(31, 188, 209) ;
+}
+
+/* Header content */
+
+.header__content {
+    position: absolute;
+    margin-top: 288px;
+    margin-left: 128px;
+}
+
+.button__content {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 128px;
+    
+
+}
+
+.button_1 {
+    font-family: 'Poppins';
+    background-color: #fff ;
+    border: #fff;
+    font-weight: bold;
+    color: #4640BE;
+}
+
+.button_2 {
+    font-family: 'Poppins';
+    background-color: #4640BE;
+    border:  2px solid #FFFFFF;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.button_1,
+.button_2 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    border-radius: 15px;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s
+}
+
+.button_1:hover,
+.button_2:hover {
+    cursor: pointer;
+    background-color: rgb(31, 188, 209);
+    border: transparent;
+    color: #444;
+}
+
+
+/* Features */
+
+.fb1, 
+.fb2,
+.fb3 {
+    background-color: #fff;
+    width: 384px;
+    height: 396px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    padding: 40px;
+    margin-right: 35px;
+}
+
+.uil.uil-desktop,
+.uil.uil-comment-alt,
+.uil.uil-box {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: #FFC656;
+}
+
+.features__para {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.features__link {
+    text-align: center;
+    
+}
+
+.features__link a {
+    color: #4640BE;
+}
+
+.features {
+    width: 100%;
+    height: 556px;
+    background-color: #DBD9FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Introduce 1 */
+
+/* First introduce box */
+
+.introduce__1 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* margin-top: 70px; */
+    margin: 70px 80px 70px 80px;
+}
+
+
+.introduce1__content {
+    width: 280px;
+    height: 136px;
+}  
+
+/* Second introduce box */
+
+.introduce__2 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* margin-top: 70px; */
+    margin: 70px 80px 70px 80px;
+}
+
+
+.statistic__1,
+.statistic__2 {
+    width: 90px;
+    height: 238px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.statistic__1 p, .statistic__2 p {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.statistic__1 {
+    margin-left: 60px;
+}
+
+.font-color {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* Testimonials */
+
+.testimonials {
+    width: 100%;
+    height: 500px;
+    background-color: var(--text-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonials__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    border-radius: 50% ;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.testimonials__content {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-top: 32px;
+    padding: 32px;
+    margin-left: 70px;
+} 
+
+.comment__box,
+.comment__box-2,
+.comment__box-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.comment__1,
+.comment__2,
+.comment__3 {
+    width: 340px;
+    height: 170px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 13px;
+    color:#666666;
+    margin-left: 70px;
+    padding-top: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.comment__1 p,
+.comment__2 p,
+.comment__3 p {
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+
+
+
+.comment__info {
+    position: absolute;
+    left: 125px;
+    top: 97px;
+    display: flex;
+}
+
+
+

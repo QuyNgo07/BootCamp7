@@ -1,0 +1,131 @@
+các thẻ HTML có dạng đóng mở
+
+<ten>       thẻ mở
+</ten>      thẻ đóng
+            thẻ có dạng đóng mở sẽ quản lý 1 vùng nội dung
+
+Ngoài ra có 1 số thẻ chỉ có thẻ mở, chỉ có thể làm thẻ con, không bọc các nội dung khác bên trong được
+
+================================
+<!DOCTYPE> //đại diện cho loại tài liệu và giúp các trình duyệt hiển thị các trang web một cách chính xác.
+<html>
+    <head></head> //là vùng chưa siêu dữ liệu
+    <body></body>
+</html>
+
+==================================================
+
+title               quy định tên tab trình duyệt
+
+link
+    favicon         quy định icon logo trên tab trình duyệt
+        href        dẫn link icon muốn hiển thị
+
+                    C1: link online
+
+                    C2: link tuyệt đối (absolute path)
+                            (ghép giữa link thư mục và tên file)
+
+                    C3: link tương đối (relative path)
+                            (lấy gốc tìm kiếm ở thư mục đang code, không chuyển ổ)
+
+
+=====================================================================
+
+text
+
+h                   thẻ tiêu đề
+                    chữ to, đậm, chiếm hết ròng
+
+p                   hiển thị 1 đoạn văn
+                    chiếm hết ròng
+
+br                  ngắt ròng
+
+span                cho HTML tên để chỉnh sửa về sau
+                    span không khác gì nội dung không có thẻ
+
+b/i/u               đậm / nghiêng / gạch chân                    
+
+Trong HTML các thẻ có tính kế thừa
+Thẻ con sẽ kế thừa các đặc tính của thẻ cha
+
+sup                 số mũ
+
+sub                 phụ đề
+
+===========================================================================
+
+img                 hiển thị ảnh
+    src             chèn link ảnh
+
+
+a                   khi click vào sẽ mở web ở địa chỉ định sẵn
+
+===========================================================================
+
+input               thu thập dữ liệu ng dùng
+    placeholder     đoạn text gợi ý, giữ chỗ khi chưa nhập nội dung
+
+type="text"         nhập text ngắn trên 1 dòng
+                    thường nhập username...
+
+type="password"     ẩn nội dung nhập
+
+type="date"             chọn ngày tháng
+
+type="datetime-local"   chọn ngày giờ
+
+type="file"         upload file
+    multiple        upload nhiều file
+
+textarea            nhập text dài
+
+type='checkbox'     trắc nghiệm, có thể chọn nhiều đáp án
+
+type='radio'        trắc nghiệm, chỉ được chọn 1
+                    lưu ý cho các thẻ radio chung 'name'
+
+type ='submit'      tạo nút nhấn gửi thông tin người dùng
+
+type='reset'        reset lại nội dung trong input
+
+select/option       trắc nghiệm, chỉ được chọn 1
+                    có sẵn 1 lựa chọn ban đầu
+
+button              tạo nút bấm
+
+
+form                tạo FormData và gửi request
+                    lưu ý: nếu form có chứa button bên trong thì button mặc định là submit
+
+=============================================================
+
+bảng                xắp xếp giao diện theo ròng, cột, tự động giãn ô, thẳng đầu ròng
+
+table               quy định phạm vi vẽ bảng
+
+tr                  dòng trong bảng (table row)
+
+th                  ô tiêu đề (table heading)
+                    chữ đậm, căn giữa ô
+
+td                  data trong bảng (table dataa)
+
+<table border="1" style="border-collapse: collapse">
+=================================================================
+
+danh sách
+
+ul                  unordered list
+                    tạo danh sách không đánh thứ tự
+
+ol                  ordered list
+                    tạo ra danh sách có đánh thứ tự
+
+li                  list item
+
+===================================================================
+
+div                 đóng gói code giao diện
+                    phân chia giao diện

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  transition: all 0.5s;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+.box:hover {
+  transform: ();
+}
+
